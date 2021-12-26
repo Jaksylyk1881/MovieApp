@@ -1,4 +1,4 @@
-package com.example.movieapp;
+package com.example.movieapp.screens.Films;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProviders;
@@ -15,6 +15,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.movieapp.R;
 import com.example.movieapp.adapters.ReviewAdapter;
 import com.example.movieapp.adapters.TrailerAdapter;
 import com.example.movieapp.data.FavoriteMovie;

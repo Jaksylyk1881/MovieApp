@@ -1,4 +1,4 @@
-package com.example.movieapp;
+package com.example.movieapp.screens.Films;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,11 +14,11 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import com.example.movieapp.R;
 import com.example.movieapp.adapters.MoviesAdapter;
 import com.example.movieapp.data.FavoriteMovie;
 import com.example.movieapp.data.MainViewModel;
 import com.example.movieapp.data.Movie;
-import com.example.movieapp.screens.Films.MainActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -76,7 +76,7 @@ public class FavoriteActivity extends AppCompatActivity {
             @Override
             public void onPosterClick(int position) {
                 Movie movie = moviesAdapter.getMovies().get(position);
-                Intent intent = new Intent(FavoriteActivity.this,DetailActivity.class);
+                Intent intent = new Intent(FavoriteActivity.this, DetailActivity.class);
                 intent.putExtra("id",movie.getId());
                 startActivity(intent);
             }

@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:id="@+id/scrollViewDetail"
     android:layout_height="match_parent"
-    tools:context=".DetailActivity">
+    tools:context=".screens.Films.DetailActivity">
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".DetailActivity">
+    tools:context=".screens.Films.DetailActivity">
 
     <ImageView
         android:contentDescription="@string/bigposter"

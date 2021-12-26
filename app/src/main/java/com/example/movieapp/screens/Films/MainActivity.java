@@ -22,8 +22,6 @@ import androidx.loader.content.Loader;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.movieapp.DetailActivity;
-import com.example.movieapp.FavoriteActivity;
 import com.example.movieapp.R;
 import com.example.movieapp.adapters.MoviesAdapter;
 import com.example.movieapp.data.MainViewModel;
