@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="play_button_w_h">60dp</dimen>
+    <dimen name="corner_radius">15dp</dimen>
+    <dimen name="margin8dp">8dp</dimen>
+    <dimen name="padding5dp">5dp</dimen>
+</resources>
